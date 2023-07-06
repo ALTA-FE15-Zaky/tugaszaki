@@ -38,7 +38,44 @@ const condition_two: boolean = temp === "30"
 const condition_three: boolean = temp != "30"
 const condition_four: boolean = temp !== "30"
 
-console.log(condition_one)
-console.log(condition_two)
-console.log(condition_three)
-console.log(condition_four)
+// console.log(condition_one)
+// console.log(condition_two)
+// console.log(condition_three)
+// console.log(condition_four)
+
+// --- GERBANG LOGIKA
+
+// -- AND (&&)
+// false + false = false
+// false + true = false
+// true + false = false
+// true + true = true
+
+// -- OR (||)
+// false + false = false
+// false + true = true
+// true + false = true
+// true + true = true
+
+const statement_1: boolean = 30 < 33
+const statement_2: boolean = 20 > 18
+const statement_3: boolean = 50 < 48
+const statement_4: boolean = 40 > 39
+const statement_5: boolean = 12 > 17
+
+// console.log(statement_1 && statement_4) --> true
+// console.log(statement_2 && statement_1) --> true
+// console.log(statement_3 && statement_1) --> false
+
+// console.log(statement_5 || statement_2)
+// console.log(statement_3 || statement_5)
+// console.log(statement_2 || statement_1)
+
+// -- SHORTHAND ARITMETHIC
+let numberVar: number = 40
+
+numberVar += 40 // numberVar = numberVar + 40
+numberVar -= 40 // numberVar = numberVar - 40
+numberVar *= 40 // numberVar = numberVar * 40
+numberVar /= 40 // numberVar = numberVar / 40
+numberVar %= 40 // numberVar = numberVar % 40

@@ -120,4 +120,4 @@ function nestedDoWhile(num:number):void{
     } while (i < num)
 }
 
-nestedDoWhile(3)
+// nestedDoWhile(3)

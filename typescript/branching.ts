@@ -178,6 +178,6 @@ function checkGrade(score: number): void {
     }
 }
 
-// checkGrade(30)
-// checkGrade(36)
-// checkGrade(27)
+checkGrade(30)
+checkGrade(36)
+checkGrade(27)
